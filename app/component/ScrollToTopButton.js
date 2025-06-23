@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
 
   // Call action
   const handleCall = () => {
-    window.location.href = 'tel:+919038831256';
+    window.location.href = 'tel:+919874134353';
   };
 
   // Attach scroll listener
