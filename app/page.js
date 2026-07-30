@@ -115,8 +115,10 @@ export default function Home() {
           >
             <Image
               src={slides[index].leftImage}
-              alt="Left"
+              alt="Cricket Academy Hero Left"
               fill
+              sizes="(max-width: 768px) 100vw, 40vw"
+              quality={80}
               className="object-cover rounded-none"
               priority
             />
@@ -132,8 +134,10 @@ export default function Home() {
           >
             <Image
               src={slides[index].rightImage}
-              alt="Right"
+              alt="Cricket Academy Hero Right"
               fill
+              sizes="(max-width: 768px) 100vw, 60vw"
+              quality={80}
               className="object-cover rounded-none"
               priority
             />
