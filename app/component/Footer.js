@@ -104,8 +104,19 @@ Train With The Best Coaches
 
       {/* Divider and Copyright */}
       <div className="border-t border-black mt-10 pt-6 text-center text-sm text-gray-600">
-         Copyright © {new Date().getFullYear()}. All Rights Reserved.
-        Website Developed & Maintained by Digital Exposure Online Services
+         Copyright © {new Date().getFullYear()}. 
+         Developed & Maintained by 
+         
+         Digital Exposure Online Services
+         <a
+              href="https://www.teamdeoskolkata.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold hover:text-red-700 transition-colors duration-300 ml-1"
+            >
+              Digital Exposure Online Service 
+         </a>.
+
       </div>
     </footer>
   );
